@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+section{
+    background-color: #F6F6F6 ;
+    color: black;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #066A75;
+     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.123);
+}
+
+section > h1{
+    color: #066A75;
+    text-align: center;
+    font-size: 2em;
+   
+}
+
+section > hr{
+    border: none;
+    height: 3px;
+    margin: 10px auto;
+    width: 100%; /* ou o tamanho que quiser */
+    background-image: linear-gradient(to right, transparent, #066A75, transparent);
+    margin-bottom: 30px;
+}
+
+div.email > label{
+   
+    font-size: 1.2em;
+}
+div.password input::placeholder{
+    font-style: italic;
+}
+
+div.email input::placeholder{
+    font-style: italic;
+}
+div.password{
+    
+    font-size: 1.1em;
+}
+div.email > input{
+    width: 100%;
+    padding: 10px;
+     margin-bottom: 10px;
+     box-shadow: inset 0px 1px 2px rgba(175, 175, 175, 0.61);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(175, 175, 175, 0.61);
+    border-radius: 6px;
+   
+}
+div.password > input{
+      width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+     box-shadow: inset 0px 1px 2px rgba(175, 175, 175, 0.61);
+    border: none;
+    border: 2px solid rgba(175, 175, 175, 0.61);
+    border-radius: 6px;
+     outline: none;
+}
+div.mater-se > label{
+    font-size: 1.2em;
+}
+div.manter-se > input{
+     accent-color: rgb(134, 134, 134);
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: inset 0px 2px 2px rgba(175, 175, 175, 0.61);
+}
+
+div.login > input{
+    width: 100%;
+    padding: 5px;
+    background-color: #3D9DB3;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.39);
+    transition: background-color 0.4s ease;
+    margin-bottom: 20px;
+}
+div.login > input:hover{
+    background-color: #21545f;
+    transition: 0.4s;
+}
+
+div.cadastro{
+    
+    text-align: right;
+    background-color: #E1EAEB;
+    padding: 11px;
+    height: 50px;
+}
+
+div.cadastro p {
+    color: #B2B5B5;
+}
+div.cadastro a{
+    padding: 2px;
+    background-color: #F6F7F0;
+    text-decoration: none;
+    color: #0A9BBD;
+    border: 2px solid yellow;
+}
+div.cadastro a:hover{
+text-decoration: underline;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de flex-box com formulário</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+        <main class="container">
+            <section class="formulario">
+                <h1>Login</h1>
+                <hr>
+                <form action="login.php" method="get">
+
+                    <div class="email">
+                        <label for="iemail">Seu email</label> <br>
+                        <input type="email" name="email" id="iemail" required placeholder="contato@htmlecsspro.com">
+                    </div>
+
+                    <div class="password">
+                        <label for="isenha">Sua senha</label> <br>
+                        <input type="password" name="senha" id="isenha" required maxlength="30" minlength="8" placeholder="12345678">
+                    </div>
+
+                    <div class="manter-se">
+                        <input type="checkbox" name="manter" id="imanter">
+                        <label for="imanter">Manter-se ligado</label>
+                    </div>
+                    <div class="login">
+                        <input type="submit" value="Logar">
+                    </div>
+                    <div class="cadastro">
+
+                        <p> Ainda nao tem conta? <a href="#">Cadastre-se</a></p>
+                    </div>
+                </form>
+            </section>
+        </main>
+</body>
+</html>
